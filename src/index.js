@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import Button from './lesson1/button'
 
 ReactDOM.render(
-    <App />,
+    <Button />,
     document.getElementById('root')
 );
 registerServiceWorker();
