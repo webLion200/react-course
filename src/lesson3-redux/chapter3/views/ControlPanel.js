@@ -5,7 +5,6 @@ import Summary from './Summary.js';
 const style = {
   margin: '20px'
 };
-
 class ControlPanel extends Component {
   render() {
     return (
